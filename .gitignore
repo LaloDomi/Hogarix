@@ -1,0 +1,42 @@
+# Variables de entorno y secretos
+.env
+.env.*
+!.env.example
+
+# Dependencias de Node.js
+node_modules/
+backend/node_modules/
+
+# Archivos generados por Flutter
+frontend/.dart_tool/
+frontend/build/
+frontend/.flutter-plugins
+frontend/.flutter-plugins-dependencies
+
+# Archivos del sistema
+.DS_Store
+Thumbs.db
+
+# Credenciales del backend
+backend/.env
+backend/.env.*
+!backend/.env.example
+
+# Firma de Android: mantener local
+frontend/android/key.properties
+frontend/android/*.jks
+frontend/android/*.keystore
+
+# Archivos generados de Android y Gradle
+frontend/android/build/
+frontend/android/.gradle/
+
+# Archivos generados por Android y Gradle
+frontend/android/build/
+frontend/android/.gradle/
+
+# Archivos generados por Android y Gradle
+frontend/android/build/
+frontend/android/.gradle/
+backend/ca.pem
+backend/ca.pem
