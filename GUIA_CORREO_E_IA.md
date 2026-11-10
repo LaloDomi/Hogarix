@@ -95,7 +95,7 @@ El código no se envía; aparece en la ventana negra del backend. No lo actives 
 | Variable | Valor |
 |---|---|
 | `IA_API_KEY` | tu clave de Groq |
-| `IA_MODELO` | `llama-3.3-70b-versatile` (opcional, es el valor por defecto) |
+| `IA_MODELO` | `openai/gpt-oss-120b` (es el valor por defecto; las cuentas nuevas de Groq no siempre tienen los modelos Llama) |
 
 Listo: aparece el **Asistente IA** en el Inicio del cliente y en *Más* del trabajador;
 el botón **Mejorar con IA** en: publicar un trabajo, agregar/editar servicio, la
